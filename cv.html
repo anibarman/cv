@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <div id="printable">
+  <title>Curriculum vitae</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="image/resume.png">
+</head>
+<body>
+  <div class="no-print">
+  <h1 class="frozen-text">Curriculum vitae</h1>
+</div>
+  <div class="name">Animesh Barman</div>
+  <p class="email">animeshbarman.cse@gmail.com</p>
+  <section>
+    <h2>Educational Information</h2>
+    <p style="display:flex; justify-content: space-between;" class="university-name">
+      <span style="text-align:right"><strong>Presidency University</strong>, Kolkata</span>
+      <span style="text-align:left">August 2019 - August 2022</span>
+    </p>
+    <p class="university-name">Bachelors in Science with <i>Honors</i> in <strong>Statistics</strong></p>
+    <li>
+      Minor in <strong>Mathematics</strong>
+    </li>
+  
+    <p style="display:flex; justify-content: space-between;" class="university-name">
+      <span style="text-align:right"><strong>Jenkins School</strong>, Cooch Behar</span>
+      <span style="text-align:left">2009 - 2019</span>
+    </p>
+    
+    </p>
+  </section>
+  <section>
+    <h2>Achievements</h2>
+    <!-- Add your achievements -->
+    <p>
+      <li>Recipient of <strong>DST-INSPIRE Scholarship</strong> for being placed in National Top 1% in West Bengal Council of Higher Secondary Education Board – issued by Department of Science & Technology – Govt. of India</li>
+      <li>Recipient of <strong>Swami Vivekananda Merit-Cum-Means Scholarship</strong> – issued by Govt. of West Bengal</li>
+      <li>Recipient of <strong>OASIS Scholarship</strong> - issued by Govt. of West Bengal</li>
+      <li>Recipient of <strong>Dr. B R Ambedkar Scholarship</strong> in 2017 – issued by District Magistrate of Cooch Behar</li>
+    </p>
+  </section>
+
+  <section>
+    <h2>Relevant Courses & Skills</h2>
+    <p class="about-me">
+      <strong>Programming Languages:</strong> C, R, LaTeX, HTML, CSS, JavaScript and familiar with Dart
+      <br>
+      <strong>Software:</strong> Visual Studio, Dev C++, Overleaf, LyX, RStudio, Excel, Replit, Jupyter Notebook, Flutter
+    </p>
+  </section>
+
+  <section>
+    <h2>Fields of Interest</h2>
+    <p>
+      <li>Numismatics</li>
+      <li>Video Editing</li>
+      <li>Data Science</li>
+      <li>International Relations</li>
+    </p>
+  </section>
+
+  <section>
+    <div class="no-print">
+    <h2>More about me</h2>
+    <p class="about-me">
+      I am from Cooch Behar, West Bengal, India. Outside of Statistics and Mathematics, I enjoy book binding, photography, old coin collecting. Since childhood, I have collected many coins and paper notes from some foriegn countries (i.e., UAE, Nepal, USA etc.).  
+      <br> I have interest in non-fiction books, if you have same interest, you can check my collection. <a href="Non-fiction Books/books.html">Click here</a> to know. 
+      <br> I don't have any social media account, but if you want to contact me, you can use my email, telegram link. I have provided those links below, click the respective logo.
+      <br> <br>Thanking you, with regards...
+    </p>
+    
+
+  </div>
+  </section>
+  
+</div>
+  <hr>
+  <div class="copyright">
+    Copyright &copy; 2023 by Animesh Barman
+  </div>
+  
+  <div class="last-updated">
+    Last updated on: <span id="lastUpdated"></span>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    const date = new Date();
+    const month = date.toLocaleString('default', { month: 'long' });
+    const year = date.getFullYear();
+    document.getElementById("lastUpdated").innerHTML = `${month}, ${year}`;
+  </script>
+
+<div class="button-center"> 
+
+  <button id="changeColor" style="background-color: transparent; border: none;"><img src="image/col.png" alt="Print PDF" width="20" height="20"></button>
+  <script src="changeColor.js"></script>
+
+  <button id="increaseTextSize" style="background-color: transparent; border: none;"><img src="image/inc.png" alt="Print PDF" width="20" height="20"></button>
+  <button id="decreaseTextSize" style="background-color: transparent; border: none;"><img src="image/dec.png" alt="Print PDF" width="20" height="20"></button>
+  <script src="textsize.js"></script>
+  <script src="printpdf.js"></script>
+
+  <button onclick="printPDF()" style="background-color: transparent; border: none; margin:auto;">
+    <img src="image/print.png" alt="Print PDF" width="20" height="20"></button>
+    <button style="background-color: transparent; border: none; margin:auto;">
+      <a href="https://github.com/barman-animesh" target="_blank"><img src="image/github.png" alt="Print PDF" width="20" height="20"></a>
+    </button>
+    <button style="background-color: transparent; border: none; margin:auto;">
+      <a href="https://t.me/inanimesh" target="_blank"><img src="image/paper-plane.png" alt="Print PDF" width="20" height="20"></a>
+    </button>
+    <button style="background-color: transparent; border: none; margin:auto;">
+      <a href="mailto:animeshbarman.cse@gmail.com" target="_blank"><img src="image/at.png" alt="Print PDF" width="20" height="20"></a>
+    </button>
+    <button style="background-color: transparent; border: none; margin:auto;">
+      <a href="Non-fiction Books/books.html" target="_blank"><img src="image/book.png" alt="Print PDF" width="20" height="20"></a>
+    </button>
+
+</div>
+
+</body>
+</html>

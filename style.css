@@ -1,0 +1,168 @@
+body {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 16px;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(255, 191, 0);
+    color: #000000;
+  }
+  
+  .name{
+    font-family: "Book Antiqua";
+    font-size: 32px;
+    line-height: 1;
+    font-weight: bold;
+  }
+  
+  body, h1, h2, h3, p {
+    font-family: "Book Antiqua";
+  }
+.about-me{
+  font-family: "Book Antiqua";
+    font-size: 16px;
+    line-height: 1.5;
+}
+  .university-name {
+    font-family: "Book Antiqua";
+    font-size: 16px;
+    line-height: 0.5;
+  }
+  
+  .email {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  body {
+    background-image: url('image/image13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+ 
+
+
+
+
+  .frozen-text {
+    animation: freeze 5s linear infinite;
+  }
+  
+  @keyframes freeze {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+
+
+  hr {
+    border: 0;
+    height: 0.1px;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+  }
+  
+
+
+  .footnotes {
+    font-size: smaller;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+  }
+  
+  sup {
+    position: relative;
+    top: -0.5em;
+    font-size: smaller;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+
+  .text {
+    color: black;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+
+  .button-center {
+    text-align: center;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .word-left, .word-right {
+    margin: 0 10px;
+  }
+
+  .button {
+    margin: 0 10px;
+  }
+
+  .copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 24px;
+    font-size: 2vmin;
+  }
+  
+  .last-updated {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    font-size: 2vmin;
+  }
+  
