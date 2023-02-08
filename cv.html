@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <div id="printable">
-  <title>Curriculum vitae</title>
+  
+  <title>Animesh Barman</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="image/resume.png">
+  <link rel="shortcut icon" type="image/x-icon" href="image/icon.png">  
+  
+  <style>
+    @media print {
+      .no-print {
+      display: none;
+    }
+  }
+  </style>
+
 </head>
-<body>
+
+<div oncontextmenu="return false">
+<script>
+  document.onkeydown=function(e)
+  {
+    if(event.keyCode == 123)
+    {
+      return false;
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
+    {
+      return false;
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
+    {
+      return false;
+    }
+
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
+    {
+      return false;
+    }
+  }
+</script>
+  
   <div class="no-print">
   <h1 class="frozen-text">Curriculum vitae</h1>
 </div>
-  <div class="name">Animesh Barman</div>
-  <p class="email">animeshbarman.cse@gmail.com</p>
+<div id="printable">
+  <p class="ab">Animesh Barman</p>
+  <p class="email"><strong>animeshbarman.cse@gmail.com</strong></p>
   <section>
     <h2>Educational Information</h2>
-    <p style="display:flex; justify-content: space-between;" class="university-name">
-      <span style="text-align:right"><strong>Presidency University</strong>, Kolkata</span>
-      <span style="text-align:left">August 2019 - August 2022</span>
-    </p>
-    <p class="university-name">Bachelors in Science with <i>Honors</i> in <strong>Statistics</strong></p>
+    <p class="university-name"><strong>Presidency University</strong>, Kolkata<br>August 2019 - August 2022
+    <br>Bachelors in Science with <i>Honors</i> in <strong>Statistics</strong>
     <li>
       Minor in <strong>Mathematics</strong>
     </li>
-  
-    <p style="display:flex; justify-content: space-between;" class="university-name">
-      <span style="text-align:right"><strong>Jenkins School</strong>, Cooch Behar</span>
-      <span style="text-align:left">2009 - 2019</span>
     </p>
-    
+  
+
+    <p class="university-name"><strong>Jenkins School</strong>, Cooch Behar<br>2009 - 2019
     </p>
   </section>
   <section>
@@ -61,27 +92,36 @@
       <li>International Relations</li>
     </p>
   </section>
-
-  <section>
+  </div>
     <div class="no-print">
     <h2>More about me</h2>
-    <p class="about-me">
+    <p class="about-me" style="text-align: justify;">
       I am from Cooch Behar, West Bengal, India. Outside of Statistics and Mathematics, I enjoy book binding, photography, old coin collecting. Since childhood, I have collected many coins and paper notes from some foriegn countries (i.e., UAE, Nepal, USA etc.).  
-      <br> I have interest in non-fiction books, if you have same interest, you can check my collection. <a href="Non-fiction Books/books.html">Click here</a> to know. 
-      <br> I don't have any social media account, but if you want to contact me, you can use my email, telegram link. I have provided those links below, click the respective logo.
+      <br> I have interest in non-fiction books, if you have same interest, you can check my collection. Click the <i>book</i> logo in footnote section to know.
+      <br> I don't have any social media account, but if you want to contact me, you can contact through email, telegram link. I have provided those links below, click the respective logo.
       <br> <br>Thanking you, with regards...
     </p>
+    <div class="name-plate">
+      <img src="image/DSS.png" ondragstart="return false;" alt="Animesh Barman" class="profile-pic" id="profile-picture" class="no-print">
+      <div class="info">
+        <h2 class="name_1">Animesh Barman</h2>
+        <h2 class="title">Author</h2>
+       <!-- <p class="description">Animesh Barman is a passionate writer, who loves to share his thoughts and experiences through his words. He is known for his captivating writing style that always leaves a lasting impact on the readers.</p> --->
+      </div>
+    </div>
+  </div> 
     
+  <marquee scrollamount="16">
+<img src="image/ghost.gif" class="no-print" ondragstart="return false;" width="16%"/>
+</marquee>
 
-  </div>
-  </section>
   
-</div>
+  </section>
   <hr>
   <div class="copyright">
     Copyright &copy; 2023 by Animesh Barman
   </div>
-  
+  <script src="image.js"></script>
   <div class="last-updated">
     Last updated on: <span id="lastUpdated"></span>
   </div>
@@ -105,9 +145,7 @@
 
   <button onclick="printPDF()" style="background-color: transparent; border: none; margin:auto;">
     <img src="image/print.png" alt="Print PDF" width="20" height="20"></button>
-    <button style="background-color: transparent; border: none; margin:auto;">
-      <a href="https://github.com/anibarman" target="_blank"><img src="image/github.png" alt="Print PDF" width="20" height="20"></a>
-    </button>
+    
     <button style="background-color: transparent; border: none; margin:auto;">
       <a href="https://t.me/inanimesh" target="_blank"><img src="image/paper-plane.png" alt="Print PDF" width="20" height="20"></a>
     </button>
@@ -117,8 +155,9 @@
     <button style="background-color: transparent; border: none; margin:auto;">
       <a href="Non-fiction Books/books.html" target="_blank"><img src="image/book.png" alt="Print PDF" width="20" height="20"></a>
     </button>
+    
 
 </div>
-
+</div>
 </body>
 </html>
