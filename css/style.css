@@ -1,5 +1,5 @@
 body {
-    font-family: 'Book Antiqua', arial;
+    font-family: 'Book Antiqua';
     font-size: 16px;
     max-width: 700px;
     margin: 20px auto;
@@ -14,29 +14,6 @@ body {
     background-attachment: fixed;
   }
 
- /* Gray Scale */
-.hover08 figure img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover08 figure:hover img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-/* Blur + Gray Scale */
-.hover10 figure img {
-	-webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(0) blur(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover10 figure:hover img {
-	-webkit-filter: grayscale(100%) blur(3px);
-	filter: grayscale(100%) blur(3px);
-}
-  
   .dark-mode {
     background-color: black;
     box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0);
