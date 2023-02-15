@@ -1,6 +1,6 @@
 const increaseTextSize = document.getElementById("increaseTextSize");
 const decreaseTextSize = document.getElementById("decreaseTextSize");
-const textElements = document.querySelectorAll("body *:not(.copyright):not(.last-updated):not(.made-by):not(.name_1):not(.title)");
+const textElements = document.querySelectorAll("body *:not(.copyright):not(.last-updated):not(.made-by):not(.name_1):not(.title):not(.ab)");
 
 let fontSize = 16;
 
