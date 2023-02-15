@@ -1,5 +1,5 @@
 body {
-    font-family: 'Book Antiqua';
+    font-family: 'Times New Roman';
     font-size: 16px;
     max-width: 700px;
     margin: 20px auto;
@@ -28,29 +28,29 @@ body {
   
  
   .name{
-    font-family: "Book Antiqua";
+    font-family: "Times New Roman";
     font-size: 32px;
     line-height: 1;
     font-weight: bold;
   }
 
 .ab{
-  font-family: "Book Antiqua";
+  font-family: "Times New Roman";
     font-size: 32px;
     font-weight: bold;
 }
   
   body, h1, h2, h3, p {
-    font-family: "Book Antiqua";
+    font-family: "Times New Roman";
   }
 .about-me{
-  font-family: "Book Antiqua";
+  font-family: "Times New Roman";
     font-size: 16px;
     line-height: 1.5;
 }
   
 .university-name {
-    font-family: "Book Antiqua";
+    font-family: "Times New Roman";
     font-size: 16px;
     line-height: 1.5;
   }
@@ -260,9 +260,10 @@ body {
 		color: white;
 }
 .column#caption:hover .text {
-	opacity: 1;
+  opacity: 1;
   color: rgb(255, 255, 255);
-	
+  width: 100%;
+  text-align: center;	
 }
 .column#caption:hover img {
 	-webkit-filter: grayscale(30%);
