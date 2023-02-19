@@ -66,7 +66,7 @@
       return false;
     }
     
-    if(e.cmdKey && e.optKey && e.keyCode == 'I'.charCodeAt(0))
+    if((e.metaKey || e.altKey) && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
     {
       return false;
     }
