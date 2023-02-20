@@ -4,7 +4,7 @@ table {
   }
   
 ::selection {
-	background-color: #ffe400;
+	background-color: rgba(0, 0, 0, 0);
 	color: red;
 }
   th, td {
