@@ -15,7 +15,7 @@ body {
   }
 ::selection {
 	background-color: #ffe400;
-	color: black;
+	color: red;
 }
 
   .dark-mode {
