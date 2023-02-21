@@ -246,7 +246,6 @@ body {
 
 
 
-/*With Simple Caption*/
 .column#caption {
 	position: relative;
 }
@@ -259,10 +258,7 @@ body {
     opacity: 0;
     transition: all 0.8s ease;			
 }
-.column#caption .text h1 {		
-		margin: 0;		
-		color: white;
-}
+
 .column#caption:hover .text {
   opacity: 1;
   color: rgb(255, 255, 255);
