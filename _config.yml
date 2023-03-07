@@ -1,0 +1,17 @@
+# Site settings
+title: Animesh Barman
+description: Hi, I'm Animesh Barman. This site describes my Curriculum vitae. I did graduation in Statistics at Presidency University, Kolkata. Welcome!
+url: https://anibarman.github.io/cv/
+baseurl: "/cv"
+
+# Author information
+author:
+  name: Animesh Barman
+  email: animeshbarman.cse@gmail.com
+
+# Site metadata
+timezone: Asia/Kolkata
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
