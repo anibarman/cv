@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /404.html
+---
+
+{% assign redirect_url = site.url %}
+{% unless page.redirect == true %}
+{% assign redirect_url = "/" %}
+{% endunless %}
+
+{% comment %}
+Redirect to homepage
+{% endcomment %}
+<script>
+  window.location.replace('{{ redirect_url }}');
+</script>
