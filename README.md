@@ -1,4 +1,7 @@
-![](http://i.imgur.com/y8g506n.png?1)
+<div style="display: flex; justify-content: center; align-items: center; ">
+  <img src="http://i.imgur.com/y8g506n.png?1" width="500" height="100%">
+</div>
+
 # Personal Website
 
 Welcome to my site. Here I have described my Résumé.
