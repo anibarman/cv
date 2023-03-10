@@ -1,0 +1,42 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://anibarman.github.io/cv/[nc]
+RewriteRule ^(.*)$ http://www.https://anibarman.github.io/cv//$1 [r=301,nc]
+
+//301 Redirect Old File
+Redirect 301 https://anibarman.github.io/ https://anibarman.github.io/cv/
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+// Deny access to sensitive files and directories
+<FilesMatch "(^\.ht|\.json|\.log|config\.php|php.ini|\.xml)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+//Prevent directory listings
+Options All -Indexes
+ 
+// Protect against XSS attacks
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Permitted-Cross-Domain-Policies "none"
+  Header always append X-Frame-Options SAMEORIGIN
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+
+# Deny access to all hidden files and directories
+<FilesMatch "^\.">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Custom error pages
+ErrorDocument 404 /404.html
