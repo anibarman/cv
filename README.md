@@ -1,3 +1,4 @@
+![](http://i.imgur.com/y8g506n.png?1)
 # Personal Website
 
 Welcome to my site. Here I have described my Résumé.
