@@ -25,3 +25,7 @@ My website currently has a Seobility score of 70%.
 ## 🚀 About Me
 
 I'm a graduate student of Statistics. I did graduation at Presidency University, Kolkata.
+
+<p align="center">
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&width=100%&section=footer" />
+</p>
