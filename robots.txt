@@ -35,8 +35,8 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://anibarman.github.io/cv/sitemap.xml
-Disallow: Non-fiction%20Books/books.html
+Disallow: /books.html
+Disallow: /social.html
 Crawl-delay: 15
-Sitemap: https://anibarman.github.io/cv/sitemap.xml
 Disallow: /css/
 Disallow: /js/
