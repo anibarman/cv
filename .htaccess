@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} ^https://anibarman.github.io/cv/[nc]
 RewriteRule ^(.*)$ http://www.https://anibarman.github.io/cv//$1 [r=301,nc]
 
 //301 Redirect Old File
-Redirect 301 https://anibarman.github.io/ https://anibarman.github.io/cv/
+Redirect 301 https://anibarman.github.io https://anibarman.github.io/cv/
 
 //Prevent viewing of .htaccess file
 <Files .htaccess>
