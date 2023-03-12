@@ -2,6 +2,9 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^https://anibarman.github.io/cv/[nc]
+# If the HTTP host is not "anibarman.github.io",
+# execute the following RewriteRule
+RewriteCond %{HTTP_HOST} !^anibarman.github.io$
 RewriteRule ^(.*)$ http://www.https://anibarman.github.io/cv//$1 [r=301,nc]
 
 //301 Redirect Old File
