@@ -1,0 +1,62 @@
+body {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 16px;
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0);
+  color: #000000;
+  background-color: #fff;
+  /* background-image: url('image/bkur.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.ab {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff00;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.copy {
+  margin: 0;
+}
