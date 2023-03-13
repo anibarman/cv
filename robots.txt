@@ -37,6 +37,7 @@ Disallow: /cgi-bin/
 Sitemap: https://anibarman.github.io/cv/sitemap.xml
 Disallow: /books.html
 Disallow: /social.html
+Disallow: /sitemap.html
 Crawl-delay: 15
 Disallow: /css/
 Disallow: /js/
