@@ -43,3 +43,11 @@ Options All -Indexes
 
 # Custom error pages
 ErrorDocument 404 /index.html
+
+# Protect DSS-3.png file
+<Files "image/DSS-3.png">
+  AuthName "Restricted Access"
+  AuthType Basic
+  AuthUserFile /path/to/.htpasswd
+  Require valid-user
+</Files>
