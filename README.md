@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://anibarman.github.io/cv/"><img src="http://i.imgur.com/y8g506n.png?1" width="500" height="100%"></a>
+  <a href="https://anibarman.github.io/cv/"><img src="[http://i.imgur.com/y8g506n.png?1](https://static.wixstatic.com/media/d8b182_37e8bb1f59554749a15ce0f9ced8b726~mv2.gif)" width="500" height="100%"></a>
 </p>
 
 # Personal Website
